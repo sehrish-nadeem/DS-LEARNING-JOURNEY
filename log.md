@@ -15,3 +15,12 @@ Learned: how tuple unpacking actually works under the hood (Python builds a temp
 Confusing part: still getting used to when to use list comprehension vs a regular loop
 
 Notes: see notes/python notes day2.md
+
+## Day 3 — [26-08-26]
+Studied: Strings and dictionaries in Python, string methods, split/join, .format(), dictionary comprehension, working with external libraries
+
+Learned: how dict.items() actually works under the hood, it returns tuples, so if you only give it one loop variable instead of two, Python won't unpack the pair for you
+
+Confusing part: the difference between when Python overwrites a key vs when it just adds a new one in dictionary comprehension, still connecting that to real use cases
+
+Notes: see notes/python notes day3.md
